@@ -1,0 +1,87 @@
+/* Header container styling */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #e7722e; /* Dark blue-gray color for the header */
+    height: 100px; /* Increased header height */
+    padding: 0 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Logo container styling */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px; /* Adjust to fit nicely within the header height */
+    width: auto;
+}
+
+/* Title styling */
+.title h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    flex-grow: 1; /* Ensure the title occupies remaining space */
+    text-align: center; /* Center the title horizontally */
+    margin-left:100px;
+}
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo img {
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .title h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+
+.logo img {
+    height: 50px; /* Adjust size as needed */
+}
+
+.title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.login {
+    margin-right: 20px;
+}
+
+.login-link {
+    text-decoration: none;
+    color: #8df00c;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.login-link:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
